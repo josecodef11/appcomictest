@@ -12,7 +12,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       builder: (context, child) => ResponsiveWrapper.builder(
           child,
-          maxWidth: 1200,
+          maxWidth: 1201,
           minWidth: 480,
           defaultScale: true,
           breakpoints: [
